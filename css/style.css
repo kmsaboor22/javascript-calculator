@@ -1,0 +1,102 @@
+body{
+   background-color: whitesmoke;
+}
+h1{
+  font-family:'VT323', monospace;
+  font-size:800%;
+  color:#3B5998;
+   font-family:'Lobster', cursive;
+  color:#3B5998;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 2.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+  
+}
+h3{
+  font-family:'Lobster', cursive;
+  font-size:400%;
+  color:#3B5998;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 2.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+h4{
+    font-family:'Lobster', cursive;
+  font-size:200%;
+  color:#3B5998;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid blue; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 2.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #3B5998; }
+}
+
+#steps{
+  font-size:2em;
+  padding-left:90px;
+  margin-top:200px;
+}
+
+#outputData{
+background-color:whitesmoke;
+width:25%;
+height:75px;
+margin-top:50px;
+border-top-left-radius:2em;
+border-top-right-radius:2em;
+margin-left:auto;
+margin-right:auto;
+}
+
+.block {
+  background-color: white;
+  padding: 30px;
+  height: auto;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:80px;
+  border-radius: 15px;
+}
+
+.box{
+  background-color:whitesmoke;
+  border-bottom-left-radius:2em;
+  border-bottom-right-radius:2em;
+  width: 25%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.bigButton{
+  width:93px;
+}
+
+button{
+  margin:5px;
+  width:2.6vw;
+  height:2.6vw;
+}

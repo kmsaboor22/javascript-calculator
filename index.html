@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Javascript Calculator</title>
+  <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lobster|VT323" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <!-- 1.As a user, I can add, subtract, multiply and divide two numbers.
+2.I can clear the input field with a clear button.
+3.I can keep chaining mathematical operations together until I hit the equal button, and the calculator will tell me the correct output. -->
+
+<div class ="block text-center">
+  <h1>Javasript Calculator</h1>
+  <h3>Created By Khalil Saboor</h2>
+  <h4>MUST CLEAR AFTER EACH CALCULATIONS!!!</h4>
+  
+  <!--div contains answers to calucations-->
+  <div id="outputData">
+  <span id="steps">0</span>
+  </div>
+  <div class="text-center" id="Calculator">
+    <div class="box">
+    <!--Cal symbols-->
+    <button class="btn btn-danger" id="deleteAll">AC</button>
+    <button class="btn btn-danger" id="backOne">CE</button>
+  
+    <!--Math symbols and numbers-->
+    <button class="btn btn-primary" id="/">/</button>
+    <button class="btn btn-primary" id="*">*</button>
+    <br>
+    <button class="btn btn-primary" id="7">7</button>
+    <button class="btn btn-primary" id="8">8</button>
+    <button class="btn btn-primary" id="9">9</button>
+    <button class="btn btn-primary" id="-">-</button>
+    <br> 
+    <button class="btn btn-primary" id="4">4</button>
+    <button class="btn btn-primary" id="5">5</button>
+    <button class="btn btn-primary" id="6">6</button>
+    <button class="btn btn-primary" id="+">+</button>
+    <br>
+    <button class="btn btn-primary" id="1">1</button>
+    <button class="btn btn-primary" id="2">2</button>
+    <button class="btn btn-primary" id="3">3</button>
+    <button class="btn btn-primary" id=".">.</button>
+    <br>    
+    <button class="btn btn-primary bigButton" id="0">0</button> 
+    <button class="btn btn-primary bigButton" id="total">=</button> 
+    </div>
+    </div>
+  </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
